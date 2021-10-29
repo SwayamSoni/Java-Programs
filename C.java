@@ -1,0 +1,4 @@
+class C extends V{
+    
+    
+}
