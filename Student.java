@@ -1,27 +1,26 @@
-class Student extends College{   // child
+class Student{
     
-    int bomb = 34;
+    private int x=1;
     
-    void koibhi(){
+    private String name;
+    
+    void setValues(int x,String name){
         
-        System.out.println("this is koibhi method");
+        this.x=x;
+        this.name=name;
+        
+        System.out.println(this.x);
+        
+        
+        // this refers to the current class object
     }
     
-        void print(){
+    void getValues(){
         
-        super.display();   // super keyword refers to the parent class object   
-        this.koibhi();   // this keyword refers to the current class object
-        
-        System.out.println(super.x);
-        System.out.println(super.name);
+        System.out.println(x+" "+name);
         
     }
-    public static void main(){
-        
     
-        Student s = new Student();
-        
-        s.print();
-        
-    }
+    
+    
 }

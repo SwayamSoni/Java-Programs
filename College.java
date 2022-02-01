@@ -1,16 +1,16 @@
-class College{  // parent
+class College{
     
-    int x =23;
-    String name = "Tops";
+    public static void main(){
     
-    void display(){
-        
-        
-        System.out.println("This is from display function");
-        
+    Student s = new Student();
+    
+    s.setValues(7891,"Swayam");
+    
+    s.getValues();
+    
+    
+    BlueJ ob = new BlueJ(12);
+    
     }
-    
-
-
     
 }
